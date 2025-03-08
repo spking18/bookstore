@@ -112,7 +112,7 @@ body {
 .popup-box input,
 .popup-box textarea {
   background: transparent;
-  /* border: none; */
+  border: none;
   width: 100%;
   margin: 5px;
   padding: 5px;
