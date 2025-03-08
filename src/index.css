@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+
+#navbar {
+  background-color: #F65696;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar h1 {
+  font-size: 40px;
+  color: white;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.container {
+  background-color: rgb(99, 95, 95);
+  width: 250px;
+  border-radius: 10px;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+.container h1 {
+
+  /* font-weight: bold; */
+  border: 1px solid black;
+  color: rgb(235, 60, 168);
+  background-color: white;
+  border-radius: 20px;
+}
+.container h5{
+    
+    color: #F65696;
+}
+
+.container button {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  margin: 5px;
+}
+.container button:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.add-button {
+  background-color: #F65696;
+  color: black;
+  border-radius: 20%;
+  padding: 20px 25px;
+  font-size: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 20px;
+  cursor: pointer;
+  border-color: white;
+}
+.add-button:hover{
+    color: black;
+    background-color: rgb(203, 132, 209);
+}
+
+.popup-overlay {
+  background-color: black;
+  opacity: 0.8;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.popup-box {
+  background-color: #F65696;
+  width: 40%;
+  padding: 40px;
+  border-radius: 10px;
+  position: fixed;
+  top: 20%;
+  left: 30%;
+  z-index: 2;
+  text-align: center;
+}
+
+.popup-box input,
+.popup-box textarea {
+  background: transparent;
+  /* border: none; */
+  width: 100%;
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  border-bottom: 2px solid black;
+  
+}
+
+.popup-box textarea {
+  border: 2px solid black;
+}
+
+.popup-box input::placeholder,
+.popup-box textarea::placeholder {
+  color: black;
+}
+
+.popup-box button {
+  background-color: black;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.popup-box input:focus,
+.popup-box textarea:focus {
+  outline: none;
+}
+.search-bar {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .search-bar input {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #F65696;
+    outline: none;
+  }
+  
+  .book-description {
+    text-align: center;
+    margin: 30px auto;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #F65696;
+    color: white;
+    border-radius: 10px;
+    font-family: "Georgia", serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .book-description h2 {
+    font-size: 22px;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  .book-description p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
