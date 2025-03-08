@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
 
 * {
+  overflow-x: hidden;
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
@@ -98,12 +99,12 @@ body {
 
 .popup-box {
   background-color: #F65696;
-  width: 40%;
+  max-width: 40%;
   padding: 40px;
   border-radius: 10px;
   position: fixed;
   top: 20%;
-  left: 30%;
+  left: 27%;
   z-index: 2;
   text-align: center;
 }
